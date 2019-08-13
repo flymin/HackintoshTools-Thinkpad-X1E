@@ -1,0 +1,338 @@
+
+AppleIntelInfo.kext v1.4 Copyright © 2012-2015 Pike R. Alpha. All rights reserved
+
+Settings:
+------------------------------------
+logMSRs............................: 1
+logIGPU............................: 1
+logIntelRegs.......................: 1
+logCStates.........................: 1
+logIPGStyle........................: 1
+InitialTSC.........................: 0x6a994cb03ee
+MWAIT C-States.....................: 286531872
+
+Model Specific Regiters
+------------------------------------
+MSR_CORE_THREAD_COUNT......(0x35)  : 0x6000C
+MSR_PLATFORM_INFO..........(0xCE)  : 0x8083BF1011600
+MSR_PMG_CST_CONFIG_CONTROL.(0xE2)  : 0x1E008008
+MSR_PMG_IO_CAPTURE_BASE....(0xE4)  : 0x51814
+IA32_MPERF.................(0xE7)  : 0x1577032DF85
+IA32_APERF.................(0xE8)  : 0xA36CFEF965
+MSR_FLEX_RATIO.............(0x194) : 0x0
+MSR_IA32_PERF_STATUS.......(0x198) : 0x20AD00001E00
+MSR_IA32_PERF_CONTROL......(0x199) : 0xA00
+IA32_CLOCK_MODULATION......(0x19A) : 0x0
+IA32_THERM_STATUS..........(0x19C) : 0x8826280A
+IA32_MISC_ENABLES..........(0x1A0) : 0x850089
+MSR_MISC_PWR_MGMT..........(0x1AA) : 0x401CC1
+MSR_TURBO_RATIO_LIMIT......(0x1AD) : 0x272728282929
+IA32_ENERGY_PERF_BIAS......(0x1B0) : 0x5
+MSR_POWER_CTL..............(0x1FC) : 0x24005F
+MSR_RAPL_POWER_UNIT........(0x606) : 0xA0E03
+MSR_PKG_POWER_LIMIT........(0x610) : 0x42827000DD81B8
+MSR_PKG_ENERGY_STATUS......(0x611) : 0x163BE5F1
+MSR_PKG_POWER_INFO.........(0x614) : 0x168
+MSR_PP0_CURRENT_CONFIG.....(0x601) : 0x410
+MSR_PP0_POWER_LIMIT........(0x638) : 0x0
+MSR_PP0_ENERGY_STATUS......(0x639) : 0xA8C4908
+MSR_PP0_POLICY.............(0x63a) : 0x0
+MSR_PKGC6_IRTL.............(0x60b) : 0x8876
+MSR_PKG_C2_RESIDENCY.......(0x60d) : 0xE4C54883D0
+MSR_PKG_C3_RESIDENCY.......(0x3f8) : 0x2E43EBF15E4
+MSR_PKG_C6_RESIDENCY.......(0x3f9) : 0x0
+IA32_TSC_DEADLINE..........(0x6E0) : 0x6A996779E30
+PCH device.................: 0xA30E8086
+
+Intel Register Data
+------------------------------------
+CPU_VGACNTRL...............: 0x18BD1
+IS_ELSE(devid)
+DCC........................: 0xa0b68b49 ()
+CHDECMISC..................: 0x85480000 (none, ch2 enh disabled, ch1 enh disabled, ch0 enh disabled, flex disabled, ep not present)
+C0DRB0.....................: 0xa0b68b49 (0x8b49)
+C0DRB1.....................: 0x0002a0b6 (0xa0b6)
+C0DRB2.....................: 0x0f000002 (0x0002)
+C0DRB3.....................: 0x56b60f00 (0x0f00)
+C1DRB0.....................: 0xc748207b (0x207b)
+C1DRB1.....................: 0x4043c748 (0xc748)
+C1DRB2.....................: 0x00004043 (0x4043)
+C1DRB3.....................: 0x00000000 (0x0000)
+C0DRA01....................: 0x442256b6 (0x56b6)
+C0DRA23....................: 0xb60f4422 (0x4422)
+C1DRA01....................: 0x89480000 (0x0000)
+C1DRA23....................: 0xd8758948 (0x8948)
+PGETBL_CTL.................: 0x3c74c085
+VCLK_DIVISOR_VGA0..........: 0xf6894c00 (n = 9, m1 = 12, m2 = 0)
+VCLK_DIVISOR_VGA1..........: 0x005a95e8 (n = 26, m1 = 21, m2 = 40)
+VCLK_POST_DIV..............: 0x4c038948 (vga0 p1 = 10, p2 = 2, vga1 p1 = 11, p2 = 4)
+DPLL_TEST..................: 0x090890ff (, DPLLA N bypassed, DPLLA M bypassed, DPLLB N bypassed, DPLLB input buffer disabled)
+CACHE_MODE_0...............: 0x7f5d531c
+D_STATE....................: 0x02eb01b0
+DSPCLK_GATE_D..............: 0x87f6fb89 (clock gates disabled: AUDUNIT DPUNIT_A DPCUNIT TVRUNIT TVCUNIT TVFUNIT TVEUNIT DSSUNIT DDBUNIT DPFUNIT DPBMUNIT DPLSUNIT DPLUNIT DPOUNIT DCUNIT DPUNIT VRUNIT OVRUNIT OVLUNIT)
+RENCLK_GATE_D1.............: 0x000000c8
+RENCLK_GATE_D2.............: 0x96840f02
+SDVOB......................: 0x00064108 (disabled, pipe A, stall disabled, not detected)
+SDVOC......................: 0x00066f80 (disabled, pipe A, stall disabled, not detected)
+SDVOUDI....................: 0x00065670
+DSPARB.....................: 0x4d384f8d
+FW_BLC.....................: 0x48db31d3
+FW_BLC2....................: 0x00b8b883
+FW_BLC_SELF................: 0x74000000
+DSPFW1.....................: 0x4800558b
+DSPFW2.....................: 0x4c240c89
+DSPFW3.....................: 0x894cef89
+ADPA.......................: 0x00070ca8 (disabled, pipe A, +hsync, -vsync)
+LVDS.......................: 0x0006a888 (disabled, pipe A, 18 bit, 1 channel)
+DVOA.......................: 0x00074460 (disabled, pipe A, no stall, -hsync, -vsync)
+DVOB.......................: 0x00064108 (disabled, pipe A, no stall, +hsync, -vsync)
+DVOC.......................: 0x00066f80 (disabled, pipe A, no stall, -hsync, -vsync)
+DVOA_SRCDIM................: 0x06000001
+DVOB_SRCDIM................: 0x06000001
+DVOC_SRCDIM................: 0x06000001
+BLC_PWM_CTL................: 0x06000001
+BLC_PWM_CTL2...............: 0x0006d318
+PP_CONTROL.................: 0x06000001 (power target: on)
+PP_STATUS..................: 0x00064aa0 (off, not ready, sequencing idle)
+PP_ON_DELAYS...............: 0x00065678
+PP_OFF_DELAYS..............: 0x06000001
+PP_DIVISOR.................: 0x00066300
+PFIT_CONTROL...............: 0x00069dc0
+PFIT_PGM_RATIOS............: 0x06000001
+PORT_HOTPLUG_EN............: 0x00072be0
+PORT_HOTPLUG_STAT..........: 0x06000001
+DSPACNTR...................: 0x31000005 (disabled, pipe B)
+DSPASTRIDE.................: 0x48de8948 (1222543688 bytes)
+DSPAPOS....................: 0x415bc189 (49545, 16731)
+DSPASIZE...................: 0x3fe95d5e (23903, 16362)
+DSPABASE...................: 0xf7894cd2
+DSPASURF...................: 0xe5894855
+DSPATILEOFF................: 0x5d000001
+PIPEACONF..................: 0xe8f7894c (enabled, double-wide)
+PIPEASRC...................: 0x06000001 (1537, 2)
+PIPEASTAT..................: 0xc890ffe7 (status: FIFO_UNDERRUN GMBUS_EVENT_ENABLE DPST_EVENT_ENABLE EFIELD_INT_ENABLE CRC_ERROR_INT_STATUS CRC_DONE_INT_STATUS GMBUS_INT_STATUS VSYNC_INT_STATUS DLINE_COMPARE_STATUS DPST_EVENT_STATUS LBLC_EVENT_STATUS OFIELPIPEA_GMCH_DATA_M..........: 0x01c890ff
+PIPEA_GMCH_DATA_N..........: 0x8d4d0000
+PIPEA_DP_LINK_M............: 0x89480055
+PIPEA_DP_LINK_N............: 0x10ba240c
+CURSOR_A_BASE..............: 0x47e8f789
+CURSOR_A_CONTROL...........: 0x4cc48941
+CURSOR_A_POSITION..........: 0x83000030
+FPA0.......................: 0xc7894800 (n = 9, m1 = 8, m2 = 0)
+FPA1.......................: 0xe8fe894c (n = 62, m1 = 9, m2 = 12)
+DPLL_A.....................: 0x415bf789 (disabled, dvo, VGA, unknown clock, unknown mode, p1 = 1, p2 = 0, using FPx1!)
+DPLL_A_MD..................: 0x907f5d21
+HTOTAL_A...................: 0x00066a00 (27137 active, 7 total)
+HBLANK_A...................: 0x06000001 (2 start, 1537 end)
+HSYNC_A....................: 0x00067688 (30345 start, 7 end)
+VTOTAL_A...................: 0x06000001 (2 active, 1537 total)
+VBLANK_A...................: 0x00068b80 (35713 start, 7 end)
+VSYNC_A....................: 0x06000001 (2 start, 1537 end)
+BCLRPAT_A..................: 0x0006a4c0
+VSYNCSHIFT_A...............: 0x00065e50
+DSPBCNTR...................: 0x000001ba (disabled, pipe A)
+DSPBSTRIDE.................: 0x002913e8 (2692072 bytes)
+DSPBPOS....................: 0xbd8b4900 (18688, 48523)
+DSPBSIZE...................: 0x00000110 (273, 1)
+DSPBBASE...................: 0xfe894c00
+DSPBSURF...................: 0xef894c00
+DSPBTILEOFF................: 0x5b18c483
+PIPEBCONF..................: 0x00d47d83 (disabled, single-wide)
+PIPEBSRC...................: 0x06000001 (1537, 2)
+PIPEBSTAT..................: 0xd2311040 (status: FIFO_UNDERRUN CRC_DONE_ENABLE VSYNC_INT_ENABLE OFIELD_INT_ENABLE EFIELD_INT_ENABLE OREG_UPDATE_ENABLE CRC_DONE_INT_STATUS LBLC_EVENT_STATUS)
+PIPEB_GMCH_DATA_M..........: 0x01be1440
+PIPEB_GMCH_DATA_N..........: 0x31000000
+PIPEB_DP_LINK_M............: 0x8b4917eb
+PIPEB_DP_LINK_N............: 0x00028885
+CURSOR_B_BASE..............: 0x89480000
+CURSOR_B_CONTROL...........: 0x0001be56
+CURSOR_B_POSITION..........: 0xf800e8df
+FPB0.......................: 0x00005a52 (n = 0, m1 = 26, m2 = 18)
+FPB1.......................: 0xdd058d48 (n = 5, m1 = 13, m2 = 8)
+DPLL_B.....................: 0xc1e95d5e (enabled, dvo, VGA, TV B/C clock, unknown mode, p1 = 1, p2 = 0, using FPx1!)
+DPLL_B_MD..................: 0xe5894855
+HTOTAL_B...................: 0x00068fd8 (36825 active, 7 total)
+HBLANK_B...................: 0x06000001 (2 start, 1537 end)
+HSYNC_B....................: 0x00069da8 (40361 start, 7 end)
+VTOTAL_B...................: 0x06000001 (2 active, 1537 total)
+VBLANK_B...................: 0x0006a878 (43129 start, 7 end)
+VSYNC_B....................: 0x06000001 (2 start, 1537 end)
+BCLRPAT_B..................: 0x0006c3d0
+VSYNCSHIFT_B...............: 0x0006d300
+VCLK_DIVISOR_VGA0..........: 0xf6894c00
+VCLK_DIVISOR_VGA1..........: 0x005a95e8
+VCLK_POST_DIV..............: 0x4c038948
+VGACNTRL...................: 0xfeb70f45 (disabled)
+TV_CTL.....................: 0x00067308
+TV_DAC.....................: 0x06000001
+TV_CSC_Y...................: 0x00069370
+TV_CSC_Y2..................: 0x06000001
+TV_CSC_U...................: 0x0006a140
+TV_CSC_U2..................: 0x06000001
+TV_CSC_V...................: 0x0006ac10
+TV_CSC_V2..................: 0x06000001
+TV_CLR_KNOBS...............: 0x0006b6b8
+TV_CLR_LEVEL...............: 0x06000001
+TV_H_CTL_1.................: 0x0006c768
+TV_H_CTL_2.................: 0x06000001
+TV_H_CTL_3.................: 0x0006d698
+TV_V_CTL_1.................: 0x06000001
+TV_V_CTL_2.................: 0x0006ebe0
+TV_V_CTL_3.................: 0x06000001
+TV_V_CTL_4.................: 0x0006f708
+TV_V_CTL_5.................: 0x06000001
+TV_V_CTL_6.................: 0x00070448
+TV_V_CTL_7.................: 0x06000001
+TV_SC_CTL_1................: 0x00072380
+TV_SC_CTL_2................: 0x06000001
+TV_SC_CTL_3................: 0x00072f70
+TV_WIN_POS.................: 0x00073988
+TV_WIN_SIZE................: 0x06000001
+TV_FILTER_CTL_1............: 0x00075630
+TV_FILTER_CTL_2............: 0x06000001
+TV_FILTER_CTL_3............: 0x00062800
+TV_CC_CONTROL..............: 0x00063618
+TV_CC_DATA.................: 0x06000001
+TV_H_LUMA_0................: 0x0006f710
+TV_H_LUMA_59...............: 0x06000001
+TV_H_CHROMA_0..............: 0x00063628
+TV_H_CHROMA_59.............: 0x06000001
+FBC_CFB_BASE...............: 0x00000148
+FBC_LL_BASE................: 0x48c68941
+FBC_CONTROL................: 0xfd30bd8b
+FBC_COMMAND................: 0x8b48ffff
+FBC_STATUS.................: 0x4890ff07
+FBC_CONTROL2...............: 0x89000001
+FBC_FENCE_OFF..............: 0x01b10915
+FBC_MOD_NUM................: 0xd0bd8d4c
+MI_MODE....................: 0x480002c1
+MI_ARB_STATE...............: 0x12f6e8c7
+MI_RDRET_STATE.............: 0xdb31288b
+ECOSKPD....................: 0x48000000
+DP_B.......................: 0x00068408
+DPB_AUX_CH_CTL.............: 0x00069d48
+DPB_AUX_CH_DATA1...........: 0x06000001
+DPB_AUX_CH_DATA2...........: 0x0006a818
+DPB_AUX_CH_DATA3...........: 0x06000001
+DPB_AUX_CH_DATA4...........: 0x0006b2c0
+DPB_AUX_CH_DATA5...........: 0x06000001
+DP_C.......................: 0x00064a30
+DPC_AUX_CH_CTL.............: 0x00066290
+DPC_AUX_CH_DATA1...........: 0x06000001
+DPC_AUX_CH_DATA2...........: 0x00066f18
+DPC_AUX_CH_DATA3...........: 0x06000001
+DPC_AUX_CH_DATA4...........: 0x00067ba0
+DPC_AUX_CH_DATA5...........: 0x06000001
+DP_D.......................: 0x00074d98
+DPD_AUX_CH_CTL.............: 0x00062410
+DPD_AUX_CH_DATA1...........: 0x06000001
+DPD_AUX_CH_DATA2...........: 0x00062fe8
+DPD_AUX_CH_DATA3...........: 0x06000001
+DPD_AUX_CH_DATA4...........: 0x00063228
+DPD_AUX_CH_DATA5...........: 0x06000001
+AUD_CONFIG.................: 0x0006e8f8
+AUD_HDMIW_STATUS...........: 0x06000001
+AUD_CONV_CHCNT.............: 0x00065720
+VIDEO_DIP_CTL..............: 0x00068fe8
+AUD_PINW_CNTR..............: 0x0006d3b8
+AUD_CNTL_ST................: 0x06000001
+AUD_PIN_CAP................: 0x06000001
+AUD_PINW_CAP...............: 0x0006b3d8
+AUD_PINW_UNSOLRESP.........: 0x0006e900
+AUD_OUT_DIG_CNVT...........: 0x06000001
+AUD_OUT_CWCAP..............: 0x000663a0
+AUD_GRP_CAP................: 0x00062518
+FENCE  0...................: 0xc7480000 (disabled)
+FENCE  1...................: 0x00000846 (disabled)
+FENCE  2...................: 0x8b490000 (disabled)
+FENCE  3...................: 0x1388ba07 (enabled, Y tiled,  128 pitch, 0x03800000 - 0x03c00000 (4096kb))
+FENCE  4...................: 0xc9310000 (disabled)
+FENCE  5...................: 0x4cc03145 (enabled, Y tiled, 2048 pitch, 0x0cc00000 - 0x0ce00000 (2048kb))
+FENCE  6...................: 0x90ffff89 (enabled, Y tiled,  128 pitch, 0x00f00000 - 0x08f00000 (131072kb))
+FENCE  7...................: 0x00000978 (disabled)
+FENCE  8...................: 0x0001b293 (enabled, Y tiled,  256 pitch, 0x00000000 - 0x00400000 (4096kb))
+FENCE  9...................: 0xd0bd8d4c (disabled)
+FENCE  10..................: 0xbefffffd (enabled, Y tiled, 16384 pitch, 0x0ef00000 - 0x16f00000 (131072kb))
+FENCE  11..................: 0x00000100 (disabled)
+FENCE  12..................: 0x894cc031 (enabled, X tiled, 4096 pitch, 0x09400000 - 0x09500000 (1024kb))
+FENCE  13..................: 0xf18944ff (enabled, X tiled, 65536 pitch, 0x01800000 - 0x02800000 (16384kb))
+FENCE  14..................: 0xa0b58a44 (disabled)
+FENCE  15..................: 0x41fffffd (enabled, Y tiled, 16384 pitch, 0x01f00000 - 0x09f00000 (131072kb))
+FENCE START 0..............: 0x0001b293 ()
+FENCE END 0................: 0xd0bd8d4c ()
+FENCE START 1..............: 0xbefffffd ()
+FENCE END 1................: 0x00000100 ()
+FENCE START 2..............: 0x894cc031 ()
+FENCE END 2................: 0xf18944ff ()
+FENCE START 3..............: 0xa0b58a44 ()
+FENCE END 3................: 0x41fffffd ()
+FENCE START 4..............: 0x49e8d889 ()
+FENCE END 4................: 0x487f4fc1 ()
+FENCE START 5..............: 0xfed0bd8d ()
+FENCE END 5................: 0x00baffff ()
+FENCE START 6..............: 0xb9000001 ()
+FENCE END 6................: 0x00000100 ()
+FENCE START 7..............: 0xe8fe894c ()
+FENCE END 7................: 0x7f0a5f40 ()
+FENCE START 8..............: 0x07eb01b3 ()
+FENCE END 8................: 0xcca58a44 ()
+FENCE START 9..............: 0x48fffffd ()
+FENCE END 9................: 0xfd70bd83 ()
+FENCE START 10.............: 0x7400ffff ()
+FENCE END 10...............: 0xbd83487d ()
+FENCE START 11.............: 0xfffffd50 ()
+FENCE END 11...............: 0x80737400 ()
+FENCE START 12.............: 0xfffdcebd ()
+FENCE END 12...............: 0x6a7500ff ()
+FENCE START 13.............: 0x50bd8b48 ()
+FENCE END 13...............: 0x48fffffd ()
+FENCE START 14.............: 0x90ff078b ()
+FENCE END 14...............: 0x00000148 ()
+FENCE START 15.............: 0x48c68941 ()
+FENCE END 15...............: 0xfdb0bd8b ()
+INST_PM....................: 0x868b49c3
+p1 out of range
+fp select out of range
+pipe A dot 94545 n 9 m1 8 m2 0 p1 1 p2 5
+p1 out of range
+ref out of range
+fp select out of range
+pipe B dot 0 n 0 m1 26 m2 18 p1 1 p2 5
+
+CPU Ratio Info:
+------------------------------------
+CPU Low Frequency Mode.............: 800 MHz
+CPU Maximum non-Turbo Frequency....: 2200 MHz
+CPU Maximum Turbo Frequency........: 4100 MHz
+
+IGPU Info:
+------------------------------------
+IGPU Current Frequency.............: 1050 MHz
+IGPU Minimum Frequency.............:  350 MHz
+IGPU Maximum Non-Turbo Frequency...:  350 MHz
+IGPU Maximum Turbo Frequency.......: 1100 MHz
+IGPU Maximum limit.................: No Limit
+
+CPU P-States [ 22 30 (40) ] iGPU P-States [ ]
+CPU C3-Cores [ 1 2 7 11 ]
+CPU P-States [ (12) 21 22 30 40 ] iGPU P-States [ ]
+CPU C3-Cores [ 1 2 4 7 8 11 ]
+CPU C3-Cores [ 0 1 2 3 4 7 8 11 ]
+CPU P-States [ 12 17 21 22 (30) 40 ] iGPU P-States [ ]
+CPU C3-Cores [ 0 1 2 3 4 5 6 7 8 11 ]
+CPU P-States [ 12 17 18 21 22 (30) 40 ] iGPU P-States [ ]
+CPU C3-Cores [ 0 1 2 3 4 5 6 7 8 9 11 ]
+CPU P-States [ (12) 17 18 19 21 22 30 40 ] iGPU P-States [ ]
+CPU P-States [ (12) 14 17 18 19 21 22 30 40 ] iGPU P-States [ ]
+CPU P-States [ 12 14 17 18 19 20 21 22 (29) 30 40 ] iGPU P-States [ ]
+CPU P-States [ 12 14 17 18 19 20 21 22 23 29 (30) 40 ] iGPU P-States [ ]
+CPU P-States [ (12) 13 14 17 18 19 20 21 22 23 29 30 40 ] iGPU P-States [ ]
+CPU C3-Cores [ 0 1 2 3 4 5 6 7 8 9 10 11 ]
+CPU P-States [ (12) 13 14 16 17 18 19 20 21 22 23 29 30 40 ] iGPU P-States [ ]
+CPU P-States [ 12 13 14 16 17 18 19 20 21 22 23 (27) 29 30 40 ] iGPU P-States [ ]
+CPU P-States [ 12 13 14 15 16 17 18 19 20 21 22 23 27 (29) 30 40 ] iGPU P-States [ ]
+CPU P-States [ 12 13 14 15 16 17 18 19 20 21 22 23 24 27 29 (30) 40 ] iGPU P-States [ ]
+CPU P-States [ (12) 13 14 15 16 17 18 19 20 21 22 23 24 25 27 29 30 40 ] iGPU P-States [ ]
+CPU P-States [ (12) 13 14 15 16 17 18 19 20 21 22 23 24 25 27 29 30 40 ] iGPU P-States [ (21) ]
+CPU P-States [ 12 13 14 15 16 17 18 19 20 21 22 23 24 25 (27) 29 30 40 ] iGPU P-States [ 21 ]
+CPU P-States [ (12) 13 14 15 16 17 18 19 20 21 22 23 24 25 27 29 30 40 ] iGPU P-States [ 21 (30) ]
+CPU P-States [ 12 13 14 15 16 17 18 19 20 21 (22) 23 24 25 27 29 30 40 ] iGPU P-States [ 21 30 ]
