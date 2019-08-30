@@ -11,3 +11,12 @@ This repo contains my hackintosh tools &amp; info for Thinkpad X1 Extrame
 | refresh_kext.sh       | Bash script to refresh kext cache                            |
 | ALCPlugFix            | By [goodwin](https://github.com/goodwin/ALCPlugFix), and changes to suit my own. Refer: [使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html) |
 
+## Other Useful
+
+- Enable HiDPI
+
+  ```bash
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+  ```
+
+  source: [xzhih/one-key-hidpi](https://github.com/xzhih/one-key-hidpi) 
