@@ -10,6 +10,7 @@ This repo contains my hackintosh tools &amp; info for Thinkpad X1 Extrame
 | Automator scripts     | Some useful Automator service script, see [detail](https://github.com/flymin/HackintoshTools-Thinkpad-X1E/tree/master/Automator%20scripts) |
 | refresh_kext.sh       | Bash script to refresh kext cache                            |
 | ALCPlugFix            | By [goodwin](https://github.com/goodwin/ALCPlugFix), and changes to suit my own. Refer: [使用AppleALC声卡仿冒驱动AppleHDA的正确姿势](https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html) |
+| fan control           | 1. apply DSDT_utilities_patch on your DSDT. <br>2. add **[ACPIPoller.kext](https://github.com/RehabMan/OS-X-ACPI-Poller)** to kext/other.<br>3. Modify and compile SSDT-CFAN.dsl and add to ACPI/patched |
 
 ## Other Useful
 
