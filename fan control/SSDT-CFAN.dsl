@@ -42,9 +42,9 @@ DefinitionBlock("SSDT_OVERRIDES", "SSDT", 2, "Mirko", "ThinkOpt", 0){
 
     Name (FTAB, Buffer()
     {
-        43, 0,
-        48, 1,
-        60, 3,
+        45, 0,
+        53, 3,
+        60, 5,
         80, 7,
     })
 
